@@ -40,3 +40,13 @@ new Typewriter(subtitleAnim , {
 .start();
 
 
+const NavAnime = document.querySelector("#NavAnime");
+const btnMenu = document.querySelector("#btnMenu");
+
+btnMenu.addEventListener('click' , () => {
+    if(NavAnime.classList.contains("container-nav-anime")){
+        NavAnime.classList.toggle('toogle');
+    }
+    
+})
+

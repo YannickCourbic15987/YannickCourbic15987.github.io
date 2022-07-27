@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./asset/16-9/style.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script
       src="https://kit.fontawesome.com/2bb89bf154.js"
@@ -25,7 +26,7 @@
   <body>
     <header class="header-hero">
       <nav class="nav-hero">
-        <ul class="ul-center">
+        <ul class="ul-center hidden">
           <li class="li-item">
             <a href="#" class="linked"> accueil </a>
           </li>
@@ -42,7 +43,34 @@
             <a href="#" class="linked"> contact </a>
           </li>
         </ul>
+        <button class="display" id="btnMenu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </nav>
+      <div class="container-nav-anime " id="NavAnime">
+      <ul class="ul-list">
+        <li class="li-mnenu">
+
+          <a href="#" class="linked">accueil</a>
+        </li>
+        <li class="li-mnenu">
+
+          <a href="#" class="linked"> à propos</a>
+        </li>
+        <li class="li-mnenu">
+
+          <a href="#" class="linked">résumé</a>
+        </li>
+        <li class="li-mnenu">
+
+          <a href="#" class="linked">portfolio</a>
+        </li>
+        <li class="li-mnenu">
+
+          <a href="#" class="linked">contact</a>
+        </li>
+      </ul>
+      </div>
       <div class="container">
         <div class="headline-hero">
           <h1 class="name">amara yacine</h1>
@@ -175,6 +203,7 @@
           </div>
         </div>
         <div class="skill-part-two">
+          <div class="skill-hero-center">
           <div class="bar-skill">
             <div class="hero-skill-php">
               <p class="title-bar">php</p>
